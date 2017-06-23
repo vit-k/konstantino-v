@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom left, #dd2476, #ff512f);
+    font-family: Arial, sans-serif;
+}
+
+.main-form {
+    width: 460px;
+    height: 470px;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.main-form-front {
+    width: 400px;
+    height: 409px;
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: left;
+}
+
+
+.top-part__first-line {
+    font-size: 24px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.top-part__bottom-text {
+    font-size: 13px;
+    color: #7a7b7f;
+    line-height: 20px;
+}
+
+.bottom-text--link-log-in {
+    color: #ea355a;
+    text-decoration: none;
+}
+
+.main-form-second-part {
+    margin-top: 34px;
+}
+
+.second-part__first-name {
+    height: 40px;
+    width: 192px;
+    background: #f0f0f0;
+    border: none;
+    outline-color: #ea355a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-left: solid 15px #f0f0f0;
+
+}
+
+.second-part__last-name {
+    height: 40px;
+    width: 193px;
+    background: #f0f0f0;
+    border: none;
+    margin-left: 10px;
+    outline-color: #ea355a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-left: solid 15px #f0f0f0;
+}
+
+.second-part__e-mail, .second-part__password {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: #f0f0f0;
+    border: none;
+    outline-color: #ea355a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-left: solid 15px #f0f0f0;
+}
+
+.second-part__submit {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #ea355a;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border-bottom: 3px solid #bd1962;
+}
+
+.third-part__text {
+    font-size: 12px;
+    color: #7a7b7f;
+    line-height: 20px;
+}
+
